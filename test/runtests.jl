@@ -1,6 +1,9 @@
 using Ecosystem
 using Test
 
+include("sheep.jl")
+include("wolf.jl")
+
 @testset "Base.show" begin
     g = Grass(1,1,1)
     s = Animal{Sheep}(2,1,1,1,1,male)
