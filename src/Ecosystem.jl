@@ -2,10 +2,7 @@ module Ecosystem
 
 using StatsBase
 
-#include("hw.jl");
-#include("world.jl");
-#include("plant.jl");
-include("animal.jl");
+include("hw.jl");
 
 export World
 export Species, PlantSpecies, AnimalSpecies, Grass, Sheep, Wolf
