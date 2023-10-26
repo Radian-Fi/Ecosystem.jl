@@ -1,0 +1,10 @@
+name = "Ecosystem"
+uuid = "106413fe-16b9-430d-a1c6-e5b9578d0975"
+authors = ["Adrian <filciadr@fel.cvut.cz> and contributors"]
+version = "1.0.0-DEV"
+
+[deps]
+StatsBase = "2913bbd2-ae8a-5f71-8c99-4fb6c76f3a91"
+
+[compat]
+julia = "1.9"
